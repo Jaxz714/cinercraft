@@ -102,7 +102,7 @@ function AppContent() {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/cinercraft">
       <AppContent />
     </Router>
   );
